@@ -61,7 +61,10 @@ h6 {
   color:#209dd8;
   text-align: left;
 }
-
+.kk
+{
+  color:#222;
+}
 #title .container-fluid {
   padding: 3% 15% ;
 }
@@ -73,6 +76,27 @@ h6 {
     transform: rotate(10deg);
         /* z-index: -1; */;
 }
+@media (max-width: 1028px) 
+{
+  #title {
+    text-align: center;
+  }
+  .container-fluid
+  {
+    padding-bottom: 100px;
+  }
+  .title-image {
+      width:90%;
+    position: relative;
+    top:90px;
+    transform: rotate(0);
+  }
+    .kk{
+      font-size: 60%;
+}
+    
+}
+
 #matter{
   position: relative;
   top: 100px;

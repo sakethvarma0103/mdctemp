@@ -60,7 +60,7 @@ linkWork.forEach((link,i)=>{
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
-var swiperTestimonial = new Swiper(".testimonial__container", {
+var swiperTestimonial = new Swiper(".work__container", {
     spaceBetween: 24,
     loop:true,
     grabCursor:true,
